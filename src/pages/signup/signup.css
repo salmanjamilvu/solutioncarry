@@ -1,0 +1,49 @@
+.signup{
+    margin: 0;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 115px;
+    width: 100%;
+    background-image: url(../../images/login-bg.jpg);
+    background-size: cover;
+    overflow: auto;
+    height: 100vh;
+}
+.card{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.form-container{
+    padding: 30px;
+    padding-bottom: 0px;
+    background-color: #fff;
+}
+.slider{
+    width: 100%;
+    text-align: center;
+}
+.slider img{
+    width: 100%;
+}
+.slider img, .slider, .form-container, .card{
+    min-height: 76vh;
+}
+@media (max-width: 1066px){
+    .signup{
+        padding-left: 120px;
+        padding-right: 120px;   
+    }
+}
+@media (max-width: 696px){
+    .signup{
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+}
+@media (max-width: 610px){
+    .signup{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}

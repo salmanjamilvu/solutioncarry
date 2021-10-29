@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+button, input[type=submit]{
+  text-transform: uppercase;
+  font-weight: bold !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  padding: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pt-10{
+  padding-top: 100px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mt-7{
+  margin-top: 70px !important;
 }
-
-.App-link {
-  color: #61dafb;
+.mt-3{
+  margin-top: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mt-2{
+  margin-top: 20px;
+}
+.m-0{
+  margin: 0px;
+}
+.mb-1{
+  margin-bottom: 10px;
+}
+.mb-2{
+  margin-bottom: 20px !important;
+}
+.mb-3{
+  margin-bottom: 30px !important;
+}
+.pt-15{
+  padding-top: 150px;
+}
+.p-3{
+  padding: 30px !important;
+}
+.text-center{
+  text-align: center !important;
+}
+.divider{
+  height: 2px;
+  background-color: #8EC6F7;
+}
+.float-right{
+  float: right;   
+}
+.font-size-13{
+  font-size: 13px;
+}
+.text-white{
+  color: #fff !important;
+}
+.font-weight-bold{
+  font-weight: bold !important;
+}
+/*This is for list container*/
+.setting-container{
+  box-shadow: 0px 0px 6px 0px rgba(161, 159, 159, 0.75);
+  min-height: 750px;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.list li{
+  font-size: 18px;
+  padding: 10px;
+  padding-left: 25px;
+}
+.list-container{
+  background-color: #FCFCFC;
+  border-left: 1px solid #f1f1f1;
+  height: auto;
+}
+.list li:hover{
+  border-left: 3px solid #007FED;
+  cursor: pointer;
+}
+.list li.active{
+  border-left: 3px solid #007FED;
+  cursor: pointer;
+}
+.setting-title{
+  background-color: #FCFCFC;
+  border-left: 3px solid #007FED;
+  font-size: 18px !important;
+  padding: 8px;
+  padding-left: 20px;
 }
